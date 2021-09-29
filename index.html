@@ -6,16 +6,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page</title>
+    <title>Page</title>   
     <script src="https://kit.fontawesome.com/7c3084af30.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
       <div class="container">
-        
-        <div class="logo"> <i class="fab fa-envira" ></i> Bonobo</div>
+
+        <div class="logo"> <i class="i-logo fab fa-envira" ></i> Bonobo</div>
           
         <nav>
+            <input id="open-btn" class="open-burger" type="checkbox">
+            <label for="open-btn" class="for-burger">Menu</label>
             <ul>
                 <li><a href="#">HOME</a></li>   
                 <li><a href="#">TOUR LIST</a></li>
@@ -28,7 +30,7 @@
         </nav>
       </div>  
     </header>
-<div class="main-sreen">
+<div class="main-screen">
     <div class="container">
         <div class="row">
 <div class="column main-img">
@@ -36,14 +38,13 @@
 <img class="main-img-2" src="oleni2.jpg">
     </div>
 <div class="column main-text">
-<h2>We Create And Turn  <br>into Reality</h2>
-
-<p>
-Company
-<br>
-<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra, risus in dictum malesuada, turpis neque dapibus nibh, a consequat elit nunc non ligula. 
-<br><br>
+<h1>We Create And Turn  <br>into Reality</h1>
+<hr class="hr-under-heading">
+<p class="first-text">
+Company</p>
+<p class="second-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra, risus in dictum malesuada, turpis neque dapibus nibh, a consequat elit nunc non ligula. 
+</p>
+<p class="third-text">
 Etiam id lacus vitae odio vestibulum eleifend sit amet vitae tellus.
 Quisque placerat sit amet justo vitae auctor. Integer quis dui lorem. Mauris ac eleifend odio. Donec mattis lectus eu magna tincidunt imperdiet. Nullam maximus felis congue consequat volutpat. Mauris ac eleifend odio. Donec mattis lectus eu magna tincidunt imperdiet.  
 </p>
@@ -56,34 +57,31 @@ Quisque placerat sit amet justo vitae auctor. Integer quis dui lorem. Mauris ac 
         <div class="flex">
        <div class="worker">
         <img class="worker-img" src="first.jpg">
-        <h3>Shing Chin</h3>
-        <p class="worker-text">
-           <b>Tour Guide</b> <br><br>
-            Morbi semper pretium rhoncus. Pellentesque odio nibh, interdum vel est id, sagittis posuere orci. Aliquam erat volutpat. Praesent convallis tincidunt lorem, sit amet laoreet magna congue eget.  
-        </p> <br>
-        <a href="#"><i class="fab fa-facebook i-worker"></i></a>
-        <a href="#"><i class="fab fa-twitter i-worker"></i></a>
+        <h2>Shing Chin</h2>
+        <p class="worker-position"></p>
+           <b>Tour Guide</b> 
+        <p class="worker-text">Morbi semper pretium rhoncus. Pellentesque odio nibh, interdum vel est id, sagittis posuere orci. Aliquam erat volutpat. Praesent convallis tincidunt lorem, sit amet laoreet magna congue eget.   </p> 
+        <a href="#"><i class="i-facebook fab fa-facebook-f"></i></a>
+        <a href="#"><i class="i-twitter fab fa-twitter"></i></a>
        </div>
        <div class="worker">
         <img class="worker-img" src="second.jpg">
-        <h3> Robert Smith</h3>
-        <p class="worker-text">
-            <b>Tour Manager</b> <br><br>
-             Morbi semper pretium rhoncus. Pellentesque odio nibh, interdum vel est id, sagittis posuere orci. Aliquam erat volutpat. Praesent convallis tincidunt lorem, sit amet laoreet magna congue eget.
-         </p><br>
-         <a href="#"><i class="fab fa-facebook i-worker"></i></a>
-         <a href="#"> <i class="fab fa-skype i-worker"></i></a>
-         <a href="#"><i class="fab fa-twitter i-worker"></i></a>
+        <h2> Robert Smith</h2>
+        <p class="worker-position">
+            <b>Tour Manager</b> </p>
+           <p class="worker-text">Morbi semper pretium rhoncus. Pellentesque odio nibh, interdum vel est id, sagittis posuere orci. Aliquam erat volutpat. Praesent convallis tincidunt lorem, sit amet laoreet magna congue eget.</p>
+         <a  href="#"><i class="i-facebook fab fa-facebook-f"></i></a>
+         <a href="#"> <i class="i-skype fab fa-skype "></i></a>
+         <a href="#"><i class="i-twitter fab fa-twitter "></i></a>
     </div>
     <div class="worker">
         <img class="worker-img" src="third.jpg">
-        <h3>Peter Mell</h3>
-        <p class="worker-text">
-            <b>Tour Guide</b> <br><br>
-             Morbi semper pretium rhoncus. Pellentesque odio nibh, interdum vel est id, sagittis posuere orci. Aliquam erat volutpat. Praesent convallis tincidunt lorem, sit amet laoreet magna congue eget.    
-         </p><br>
-         <a href="#"><i class="fab fa-facebook i-worker"></i></a>
-         <a  href="#"><i class="fab fa-twitter i-worker"></i></a>
+        <h2>Peter Mell</h2>
+        <p class="worker-position">
+            <b>Tour Guide</b> </p>
+           <p class="worker-text">  Morbi semper pretium rhoncus. Pellentesque odio nibh, interdum vel est id, sagittis posuere orci. Aliquam erat volutpat. Praesent convallis tincidunt lorem, sit amet laoreet magna congue eget.</p>
+         <a href="#"><i class="i-facebook fab fa-facebook-f"></i></a>
+         <a  href="#"><i class="i-twitter fab fa-twitter "></i></a>
          
          
     </div>
@@ -92,38 +90,35 @@ Quisque placerat sit amet justo vitae auctor. Integer quis dui lorem. Mauris ac 
     </div>
 
     <div class="client-form">
-        <div class="container">
-        <h4> Get on the List </h4>
-        <div class="line"> </div>
+        <form>
+        <h3> Get on the List </h3>
+        <hr class="hr-under-start-client-form">
         <p  class="client-form_text">Pellentesque odio nibh</p>
-
-    <div class="forms">
-        <div class="forms name-form">
-            <legend>Your name</legend>
-            <input class="form" type="text" > <br>
+           
+               <label for="your-name">Your name</label> <br>
+            <input id="your-name" type="text" > 
+                    
+            <label for="your-email">Your email</label> <br>
+            <input id="your-email" class="form" type="text" > 
             
-        </div>
-        <div class=" forms email-form">
-            <legend>Your email</legend>
-            <input class="form" type="text" > <br>
-        </div>
-        <div class="message-form">
-            <legend>Your message</legend>
-            <textarea></textarea>
-            <br>
+     
+            <label for="your-message">Your message</label><br>
+            <textarea id="your-message"></textarea>
+     
+           
             <button class="send">Send </button>
-           <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-</div>
+        </form>
+       
+   </div>
+
+
 
 <div class="bottom-menu">
     <div class="container">
-         <div class="row">
-             <div class="column">
-                <h5>Navigate</h5>
-                
+         <div class="footer__row">
+             <div class="footer__column">
+                <h4>Navigate</h4>
+                <hr class="hr-bottom-menu">
                 <ul>
                     <li><a href="#">Collection</a></li>
                     <li><a href="#">About</a></li>
@@ -132,15 +127,15 @@ Quisque placerat sit amet justo vitae auctor. Integer quis dui lorem. Mauris ac 
                     
                 </ul>
             </div>
-             <div class="column">
-                <h5>Social</h5>
-                
+             <div class="footer__column">
+                <h4>Social</h4>
+                <hr class="hr-bottom-menu">
                 <ul>
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">Facebook</a></li>
                 </ul>
             </div>
-            <div class="column">
+            <div class="footer__column">
                 <div class="bottom-logo"> <i class="fab fa-envira" ></i> Bonobo</div>
                 
             </div>
